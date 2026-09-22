@@ -1,7 +1,7 @@
 streamlit
-langchain
-langchain-google-genai
+numpy<2.3
+scipy<1.16
 scikit-fuzzy
-python-dotenv
-pydantic
-numpy
+networkx
+pandas
+matplotlib
