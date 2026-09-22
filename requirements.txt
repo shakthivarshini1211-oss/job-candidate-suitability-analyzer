@@ -6,3 +6,4 @@ networkx
 pandas
 matplotlib
 python-dotenv
+pydantic
