@@ -226,16 +226,16 @@ job-candidate-suitability-analyzer/
 └── screenshots/
     └── output.png
 
-  14. Screenshots
-      
+** 14. Screenshots**
 
+     ! [Image 1](image1.jpeg)
+     ! [Image 2](image2.jpeg)
+     ! [Image 3](image3.jpeg)
 
-**14. Live Deployment**
-
+**15. Live Deployment**
 Live Application:
 https://shakthivarshini1211-oss-job-candidate-suitability-an-app-nufox1.streamlit.app/
 
-**15. GitHub Repository**
-
+**16. GitHub Repository**
 GitHub Repository:
 https://github.com/shakthivarshini1211-oss/job-candidate-suitability-analyzer
