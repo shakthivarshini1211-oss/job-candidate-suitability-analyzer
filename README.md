@@ -1,10 +1,12 @@
-AI-Based Job Candidate Suitability Analyzer Using Fuzzy Logic
+**AI-Based Job Candidate Suitability Analyzer Using Fuzzy Logic**
 
-Student Information
+**Student Information**
+
 Student Name: Shakthi Varshini Murugan
+
 Roll Number: 19050
 
-1. Introduction
+**1. Introduction**
 
 The AI-Based Job Candidate Suitability Analyzer is a web-based application that analyzes a candidate's natural-language profile and estimates their suitability for a selected job role.
 
@@ -12,12 +14,12 @@ The system combines Large Language Models (LLMs), LangChain, Google Gemini, and 
 
 The LLM understands the candidate's natural-language profile and extracts structured information, while the fuzzy inference system evaluates the candidate's suitability using fuzzy membership functions and rules.
 
-2. Problem Statement
+**2. Problem Statement**
 
 Recruiters and students may find it difficult to compare a candidate's skills, education, experience, and projects with the requirements of a job role.
 This project provides an automated way to analyze these factors and produce an interpretable suitability score.
 
-3. Objectives
+**3. Objectives**
 
 - Extract candidate information from natural language.
 - Identify job requirements.
@@ -26,7 +28,7 @@ This project provides an automated way to analyze these factors and produce an i
 - Produce a suitability score between 0 and 100.
 - Provide a simple web interface using Streamlit.
 
-4. Main Features
+**4. Main Features**
 
 - Natural Language Candidate Analysis : 
   Users can enter candidate information in normal natural language.
@@ -52,7 +54,7 @@ This project provides an automated way to analyze these factors and produce an i
 - AI + Fuzzy Logic Integration :
   The LLM performs natural-language understanding and information extraction, while fuzzy logic performs the suitability evaluation.
 
-5. Technologies Used
+**5. Technologies Used**
    
 - Python
 - LangChain
@@ -66,7 +68,7 @@ This project provides an automated way to analyze these factors and produce an i
 - GitHub
 - Streamlit Community Cloud
 
-6. AI Component
+**6. AI Component**
    
 The project uses LangChain with Google Gemini.The LLM extracts structured information from the candidate's natural-language profile.
 For example, the candidate may write:I know Python and SQL and have completed two projects.
@@ -78,7 +80,7 @@ The LLM extracts information such as:
 The LLM is also used to identify requirements when the user enters a custom job role.
 The AI component therefore performs actual language understanding and information extraction.
 
-7. Fuzzy Logic Component
+**7. Fuzzy Logic Component**
    
 The fuzzy inference system uses the following inputs:
 
@@ -111,7 +113,7 @@ The fuzzy system performs:
 
 The final defuzzified value is used to produce the numerical suitability score.
 
-8. System Flow
+**8. System Flow**
 
 Candidate Profile
         ↓
@@ -131,9 +133,7 @@ Suitability Score
         ↓
 Result Display
 
----
-
-9. Job Selection
+**9. Job Selection**
 
 The application supports two methods of selecting a job.
 
@@ -145,7 +145,7 @@ Option 2: Enter Custom Job
 The user can enter a custom job role.
 The LLM analyzes the job role and identifies relevant skills and educational backgrounds.
 
-10. Installation and Setup
+**10. Installation and Setup**
 
 Prerequisites
 
@@ -168,7 +168,7 @@ For Windows PowerShell:
 Install the required packages:
 pip install -r requirements.txt
 
-11. How to Run the Project
+**11. How to Run the Project**
 
 After activating the virtual environment, run:
 streamlit run app.py
@@ -176,7 +176,7 @@ streamlit run app.py
 The application will open in the browser, usually at:
 http://localhost:8501
 
-12. How to Use the Project
+**12. How to Use the Project**
 
 Step 1: Select or Enter a Job
 Choose either:
@@ -214,7 +214,7 @@ The system performs fuzzification, fuzzy rule evaluation, aggregation, and defuz
 Step 6: View the Result
 The application displays the candidate's suitability result and suitability score.
 
-13. Project Structure
+**13. Project Structure**
 job-candidate-suitability-analyzer/
 │
 ├── app.py
@@ -226,12 +226,16 @@ job-candidate-suitability-analyzer/
 └── screenshots/
     └── output.png
 
-14. Live Deployment
+  14. Screenshots
+      
+
+
+**14. Live Deployment**
 
 Live Application:
 https://shakthivarshini1211-oss-job-candidate-suitability-an-app-nufox1.streamlit.app/
 
-15. GitHub Repository
+**15. GitHub Repository**
 
 GitHub Repository:
 https://github.com/shakthivarshini1211-oss/job-candidate-suitability-analyzer
