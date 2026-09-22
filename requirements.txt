@@ -1,0 +1,7 @@
+streamlit
+langchain
+langchain-google-genai
+scikit-fuzzy
+python-dotenv
+pydantic
+numpy
