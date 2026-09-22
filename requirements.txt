@@ -1,7 +1,8 @@
 streamlit
-numpy<2.3
-scipy<1.16
-scikit-fuzzy
+numpy==2.2.6
+scipy==1.15.1
+scikit-fuzzy==0.5.0
 networkx
 pandas
 matplotlib
+python-dotenv
